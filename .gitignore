@@ -1,0 +1,30 @@
+# Sensitive files
+.env
+recordings.txt
+credentials.json
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Audio files
+*.mp3
+*.wav
+
+# Generated files
+transcript*.txt
+summary*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+# ignore env and secret files
+.env
+**/.env
+ai-calling-agent/recordings.txt
+recordings.txt
